@@ -66,3 +66,10 @@ This project was developed as part of my **Software Development Internship** to 
 ---
 
 ## 📷 Sample Execution
+
+Enter temperature: 25C
+
+--- Converted Values ---
+Celsius    : 25.00 °C
+Fahrenheit : 77.00 °F
+Kelvin     : 298.15 K

@@ -1,26 +1,36 @@
-﻿# temperature-converter-java
 # 🌡️ Smart Temperature Converter (Java)
 
 ## 📌 Project Overview
-The Smart Temperature Converter is a console-based Java application that converts temperature values between Celsius (°C), Fahrenheit (°F), and Kelvin (K).
 
-This project was developed as part of my Software Development Internship task to demonstrate strong fundamentals in Java programming, input validation, and problem-solving.
+The **Smart Temperature Converter** is a console-based Java application that converts temperature values between:
+
+- Celsius (°C)
+- Fahrenheit (°F)
+- Kelvin (K)
+
+This project was developed as part of my **Software Development Internship** to demonstrate strong fundamentals in Java, input validation, and problem-solving.
 
 ---
 
 ## 🚀 Features
 
-- ✔ Accepts inputs like:
-  - 25C
-  - 32 F
-  - 300K
-  - 25 (asks for unit automatically)
-- ✔ Handles negative and decimal values
-- ✔ Regex-based input validation
-- ✔ Error handling (prevents crashes)
-- ✔ Continuous execution until user exits
-- ✔ Kelvin negative value validation
-- ✔ Clean formatted output
+✔ Accepts flexible input formats:
+- `25C`
+- `32 F`
+- `300K`
+- `25` (asks for unit automatically)
+
+✔ Handles:
+- Negative values
+- Decimal values
+- Invalid input formats
+- Unit validation
+- Continuous execution until user exits
+
+✔ Regex-based smart input detection  
+✔ Exception handling for safe execution  
+✔ Kelvin negative value validation  
+✔ Clean formatted output  
 
 ---
 
@@ -30,31 +40,29 @@ This project was developed as part of my Software Development Internship task to
 - Scanner Class
 - Regular Expressions (Pattern & Matcher)
 - Switch Case
-- Exception Handling
 - Loops
+- Exception Handling
 
 ---
 
 ## 🧠 How It Works
 
 1. Takes user input.
-2. Detects whether input contains both number and unit.
-3. If only number is entered, prompts user for unit.
-4. Validates input format using Regular Expressions.
-5. Converts temperature into all three units.
+2. Detects if input contains number + unit.
+3. If only number is entered, prompts for unit.
+4. Validates input using Regular Expressions.
+5. Performs temperature conversion.
 6. Displays results in formatted output.
 
 ---
 
 ## 🧮 Conversion Formulas Used
 
-- Celsius → Fahrenheit = (C × 9/5) + 32
-- Celsius → Kelvin = C + 273.15
-- Fahrenheit → Celsius = (F − 32) × 5/9
-- Kelvin → Celsius = K − 273.15
+- Celsius → Fahrenheit = (C × 9/5) + 32  
+- Celsius → Kelvin = C + 273.15  
+- Fahrenheit → Celsius = (F − 32) × 5/9  
+- Kelvin → Celsius = K − 273.15  
 
 ---
 
 ## 📷 Sample Execution
-
-
